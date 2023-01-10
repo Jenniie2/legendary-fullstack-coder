@@ -93,14 +93,14 @@ body {
     margin-left: 25px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 990px) {
     .de {
       width: 50%;
     }
   }
   
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
     .de {
       width: 100%;
     }
