@@ -1,0 +1,112 @@
+:root {
+    --background: rgb(133, 89, 119);
+    --header: rgb(200, 142, 152);
+    --line: navy;
+    --accent: rgb(167, 245, 245);
+    --txtclt: black;
+}
+
+body {
+    font-family: cursive, sans-serif;
+    background-color: var(--background);
+}
+
+.header {
+    padding: 20px;
+    font-family: cursive, sans-serif;
+    background-color: var(--header);
+    color: var(--txtclr);    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding-left: 10px; 
+    padding-bottom: 30px;  
+}
+
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: cursive, sans-serif; 
+    font-size: 30px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/feeling.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.h2 {
+    position:absolute;
+    background-color: var(--background);
+    bottom: 500px;
+    right: 20px;
+    padding-left: 30px;
+    padding-right: 5px;
+    font-size: 40px;
+}
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.de {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.line {
+    border-left: 3px;
+    color: var(--line);
+
+}
+
+.contact {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 992px) {
+    .de {
+      width: 50%;
+    }
+  }
+  
+  
+@media screen and (max-width: 768px) {
+    .de {
+      width: 100%;
+    }
+    main, nav {
+    flex-direction: column;
+    }
+  }
+
+
